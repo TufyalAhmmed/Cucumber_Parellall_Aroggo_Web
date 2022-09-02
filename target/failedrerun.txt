@@ -1,0 +1,2 @@
+file:src/test/java/features/Wellness.feature:3
+file:src/test/java/features/NutritionAndDrinks.feature:3
