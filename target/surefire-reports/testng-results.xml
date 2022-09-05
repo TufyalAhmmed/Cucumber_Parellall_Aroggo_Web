@@ -1,11 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-01T17:10:12 BDT" name="Surefire suite" finished-at="2022-09-01T17:10:12 BDT" duration-ms="6">
+  <suite started-at="2022-09-02T12:41:43 BDT" name="Surefire suite" finished-at="2022-09-02T12:43:19 BDT" duration-ms="95804">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-01T17:10:12 BDT" name="Surefire test" finished-at="2022-09-01T17:10:12 BDT" duration-ms="6">
+    <test started-at="2022-09-02T12:41:43 BDT" name="Surefire test" finished-at="2022-09-02T12:43:19 BDT" duration-ms="95804">
+      <class name="runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:41:43 BDT" name="setUpClass" finished-at="2022-09-02T12:41:44 BDT" duration-ms="903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b506ed0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:41:44 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:41:58 BDT" duration-ms="13723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Baby & Mom Care page Explored by using Baby & Mom Care  Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exploring Baby & Mom Care Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:41:58 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:42:09 BDT" duration-ms="10925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Covid19 items explore"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Explore Covid-19 Button]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:42:09 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:42:21 BDT" duration-ms="11926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Devices Explored by using Devices Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Explore Devices]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:42:21 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:42:32 BDT" duration-ms="10883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Herbal and homeopathy page Explored by using Herbal and homeopathy Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exploring Herbal and Homeopathy Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:42:32 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:42:42 BDT" duration-ms="10157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify URL works"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should go into the Home Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:42:42 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:42:54 BDT" duration-ms="11955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Nutrition and Drinks page Explored by using Nutrition and Drinks Care  Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exploring Nutrition and Drinks Care Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:42:54 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:43:07 BDT" duration-ms="13024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Sexual Wellness Banner Display by using Devices Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Explore Sexual Wellness]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:43:07 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T12:43:19 BDT" duration-ms="12047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Female Care things Explored by using Women Care Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Explore Female Care Things]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerTest@2f7298b]" started-at="2022-09-02T12:43:19 BDT" name="tearDownClass" finished-at="2022-09-02T12:43:19 BDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

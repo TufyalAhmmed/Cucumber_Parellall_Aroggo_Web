@@ -28,8 +28,10 @@ public class CovidStep  {
 
     }
     @When("User Clicked on Covid Nineteen Button")
-    public void user_clicked_on_covid_nineteen_button() {
+    public void user_clicked_on_covid_nineteen_button() throws InterruptedException {
+        Thread.sleep(1000);
       covid.CovidItems();
+      Thread.sleep(1000);
 
         //  Assert.assertTrue(covid.CovidItems());
 

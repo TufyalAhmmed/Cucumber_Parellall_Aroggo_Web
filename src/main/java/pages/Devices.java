@@ -13,11 +13,13 @@ public class Devices {
 
     }
     public void DeviceItems(){
+
         driver.findElement(devicesLink).click();
 
     }
 
     public boolean VerifyDevicesButton(){
+
         return driver.findElement(devicesBanner).isDisplayed();
     }
 
